@@ -1,0 +1,80 @@
+.container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    margin: auto;
+}
+
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    color: black;
+    background-color: rgb(237, 237, 131);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    height: 25rem;
+    justify-content: center;
+}
+
+.players{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.left, .right{
+    background-color: #dd7f9f;
+    color: white;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Offline{
+    width: 20rem;
+    height: 8%;
+    background-color: yellow;
+    color: black;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.Waiting{
+    width: 35rem;
+    background-color: rgb(42, 42, 166);
+    color: white;
+}
+
+.currentMoveCircle{
+    background-color: #3fa7f0 !important;
+}
+.currentMoveCross{
+    background-color: #3fa7f0 !important;
+}
+
+.finished {
+    font-size: 30px;
+    text-align: center;
+  }

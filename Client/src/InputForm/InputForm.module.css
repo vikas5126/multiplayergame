@@ -1,0 +1,51 @@
+.form{
+    position: absolute;
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 27rem;
+    top: 5rem;
+    background-color: rgb(193, 193, 193);
+}
+
+.form h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+.form input {
+    width: 80%;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.buttonContainer{
+    display: flex;
+    width: 80%;
+    height: 4rem;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.ok, .cancel{
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.ok{
+    background-color: green;
+}
+.cancel{
+    background-color: red;
+}

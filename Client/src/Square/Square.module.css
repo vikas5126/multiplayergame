@@ -1,0 +1,14 @@
+.container{
+    width: 7rem;
+    height: 7rem;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.notAllowed{
+    cursor: not-allowed !important;
+}
+
+.won{
+    background-color: rgb(104, 104, 227);
+}
